@@ -1,0 +1,200 @@
+[
+    {
+        "image": "./product-images/bose-quiet-comfort-35.jpg",
+        "name": "Bose QuietComfort 35",
+        "category": "Wireless",
+        "brand": "bose",
+        "description": "Bose QuietComfort 35 II Noise Cancelling Bluetooth Headphones— Wireless, Over Ear Headphones with Built in Microphone and Alexa Voice Control, Black",
+        "yearAdded": 2022,
+        "rating": 4,
+        "originalPrice": 7000,
+        "discountPercentage": 25
+    },
+    {
+        "image": "./product-images/sony-srs-xb13.jpg",
+        "name": "Sony SRS-XB13",
+        "category": "Speaker",
+        "brand": "sony",
+        "description": "Sony SRS-XB13 Wireless Extra Bass Portable Compact Bluetooth Speaker with 16 Hours Battery Life, Type-C, IP67 Waterproof.",
+        "yearAdded": 2022,
+        "rating": 4,
+        "originalPrice": 5000,
+        "discountPercentage": 20
+    },
+    {
+        "image": "./product-images/sony-wh-ch-510.jpg",
+        "name": "Sony WH-CH510",
+        "category": "Wireless",
+        "brand": "sony",
+        "description": "Sony WH-CH510, On-Ear Headphones, up-to 35Hrs Playtime, Lightweight, Type-C, Play/Pause Control, 30mm Driver, Blue",
+        "yearAdded": 2022,
+        "rating": 3,
+        "originalPrice": 4000,
+        "discountPercentage": 15
+    },
+    {
+        "image": "./product-images/jbl-charge-4.jpg",
+        "name": "JBL Charge 4",
+        "category": "Speaker",
+        "brand": "jbl",
+        "description": "JBL Charge 4, Wireless Portable Bluetooth Speaker, 7500mAh Built-in Powerbank, AUX & Type C (Without Mic, Black)",
+        "yearAdded": 2020,
+        "rating": 4,
+        "originalPrice": 3000,
+        "discountPercentage": 10
+    },
+    {
+        "image": "./product-images/base-quiet-comfort.png",
+        "name": "Bose QuietComfort",
+        "category": "Noise Cancelling",
+        "brand": "bose",
+        "description": "Bose QuietComfort Noise Cancelling Earbuds - True Wireless Earbuds, Bluetooth in-Ear Headphones, The World's Most Effective Noise Cancelling Earbuds",
+        "yearAdded": 2022,
+        "rating": 4,
+        "originalPrice": 5000,
+        "discountPercentage": 30
+    },
+    {
+        "image": "./product-images/bose-sounds-sport-761529.jpg",
+        "name": "Bose SoundSport 761529",
+        "category": "Wireless",
+        "brand": "bose",
+        "description": "Bose SoundSport 761529 Bluetooth Wireless In Ear Earphones With Microphone Black",
+        "yearAdded": 2022,
+        "rating": 3,
+        "originalPrice": 800,
+        "discountPercentage": 30
+    },
+    {
+        "image": "./product-images/boat-airdopes.jpg",
+        "name": "boAt Airdopes 121v2",
+        "category": "Wireless",
+        "brand": "boat",
+        "description": "boAt Airdopes 121v2 True Wireless Earbuds with Upto 14 Hours Playback, LED Indicators and Multifunction Controls(Active Black)",
+        "yearAdded": 2020,
+        "rating": 4,
+        "originalPrice": 3000,
+        "discountPercentage": 10
+    },
+    {
+        "image": "./product-images/marshall-major.jpg",
+        "name": "Marshall Major IV",
+        "category": "Wireless",
+        "brand": "marshall",
+        "description": "Marshall Major IV Wireless Bluetooth On Ear Headphone with Mic (Black)",
+        "yearAdded": 2022,
+        "rating": 5,
+        "originalPrice": 5000,
+        "discountPercentage": 5
+    },
+    {
+        "image": "./product-images/marshall-stockwell.jpg",
+        "name": "Marshall Stockwell",
+        "category": "Speaker",
+        "brand": "marshall",
+        "description": "Marshall Stockwell Wireless Bluetooth Portable Speaker (Black)",
+        "yearAdded": "2021",
+        "rating": 5,
+        "originalPrice": 5000,
+        "discountPercentage": 5
+    },
+    {
+        "image": "./product-images/boat-airdopes-441.jpg",
+        "name": "boAt Airdopes 441",
+        "category": "Wireless",
+        "brand": "boat",
+        "description": "boAt Airdopes 441 TWS Ear-Buds with Up to 35H Total Playback, Super Touch Controls, Secure Sports Fit & Type-C Port(Raging Red)",
+        "yearAdded": 2022,
+        "rating": 4,
+        "originalPrice": 3000,
+        "discountPercentage": 18
+    },
+    {
+        "image": "./product-images/boat-rockerz-450.jpg",
+        "name": "boAt Rockerz 450",
+        "category": "Wireless",
+        "brand": "boat",
+        "description": "boAt Rockerz 450 Pro Bluetooth Wireless On Ear Headphones with Mic (Hazel Beige)",
+        "yearAdded": 2022,
+        "rating": 3,
+        "originalPrice": 2000,
+        "discountPercentage": 20
+    },
+    {
+        "image": "./product-images/jbl-go-3.jpg",
+        "name": "JBL Go 3",
+        "category": "Speaker",
+        "brand": "jbl",
+        "description": "JBL Go 3, Wireless Ultra Portable Bluetooth Speaker, Vibrant Colors with Rugged Fabric Design, Waterproof, Type C (Without Mic, Teal), Standard",
+        "yearAdded": 2019,
+        "rating": 4,
+        "originalPrice": 3999,
+        "discountPercentage": 30
+    },
+    {
+        "image": "./product-images/boat-bassheads-242.jpg",
+        "name": "boAt Bassheads 242",
+        "category": "Wired",
+        "brand": "boat",
+        "description": "boAt Bassheads 242 in Ear Wired Earphones with Mic(Neon Green)",
+        "yearAdded": 2021,
+        "rating": 3,
+        "originalPrice": 3000,
+        "discountPercentage": 18
+    },
+    {
+        "image": "./product-images/marshall-stanmore-2.jpg",
+        "name": "Marshall Stanmore II",
+        "category": "Speaker",
+        "brand": "marshall",
+        "description": "Marshall Stanmore II Bluetooth Speaker, Brown. Classic Marshall details such as a textured vinyl covering.",
+        "yearAdded": 2022,
+        "rating": 5,
+        "originalPrice": 4000,
+        "discountPercentage": 20
+    },
+    {
+        "image": "./product-images/boat-rockerz-550.jpg",
+        "name": "boAt Rockerz 550",
+        "category": "Wireless",
+        "brand": "boat",
+        "description": "boAt Rockerz 550 Bluetooth Wireless Over Ear Headphone with Mic (Black Symphony)",
+        "yearAdded": 2021,
+        "rating": 4,
+        "originalPrice": 900,
+        "discountPercentage": 30
+    },
+    {
+        "image": "./product-images/sony-mdr-xb55ap.jpg",
+        "name": "Sony MDR-XB55AP",
+        "category": "Wired",
+        "brand": "sony",
+        "description": "Sony MDR-XB55AP Wired in Ear Headphones with Mic (Black)",
+        "yearAdded": 2022,
+        "rating": 4,
+        "originalPrice": 4000,
+        "discountPercentage": 15
+    },
+    {
+        "image": "./product-images/sony-mdr-zx110ap.jpg",
+        "name": "Sony MDR-ZX110AP",
+        "category": "Wired",
+        "brand": "sony",
+        "description": "Sony MDR-ZX110AP Wired On-Ear Headphones with tangle free cable, 3.5mm Jack, Headset with Mic for phone calls and 1 Year Warranty - (Black)",
+        "yearAdded": 2022,
+        "rating": 4,
+        "originalPrice": 2000,
+        "discountPercentage": 4
+    },
+    {
+        "image": "./product-images/marshall-minor-2.jpg",
+        "name": "Marshall Minor II",
+        "category": "Wireless",
+        "brand": "marshall",
+        "description": "Marshall Minor II Wireless Bluetooth in Ear Headphone with Mic (Brown)",
+        "yearAdded": 2022,
+        "rating": 4,
+        "originalPrice": 3750,
+        "discountPercentage": 5
+    }
+]
