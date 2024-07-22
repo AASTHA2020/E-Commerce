@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useProductData } from '../../contexts/ProductDataContext';
 import { useParams } from 'react-router-dom';
+import { useCartData } from '../../contexts/CartDataContext.jsx';
+import { useWishlistData } from '../../contexts/WishlistDataContext.jsx';
 import Loader from '../Loader.jsx';
 import Rating from './Rating.jsx';
 
@@ -12,8 +14,20 @@ export default function ProductDetail() {
     // Getting product name from URL.
     const { productname } = useParams();
 
+    // Getting required functions from CartData context.
+    const { addItemToCart, removeItemFromCart, isItemInCart } = useCartData();
+
+    // Getting required functions from WishlistDataContext.
+    const { addItemToWishlist, removeItemFromWishlist, isItemInWishlist } = useWishlistData();
+
     // State for product whose details have to be shown.
     const [productDetails, setProductDetails] = useState(null);
+
+    // State to check if the product is already in the cart
+    const [isAddedInCart, setIsAddedInCart] = useState(isItemInCart(productname));
+
+    // State to check if the product is already in the wishlist.
+    const [isAddedInWishlist, setIsAddedInWishlist] = useState(isItemInWishlist(productname));
 
     // Getting all product details from productData.
     useEffect(() => {
@@ -21,6 +35,28 @@ export default function ProductDetail() {
 
         setProductDetails(productData.filter(product => product['name'] === productname)[0]);
     }, [productData]);
+
+    // Handle add/remove from cart.
+    const handleCartAction = () => {
+        if (isAddedInCart) {
+            removeItemFromCart(productname);
+        } else {
+            addItemToCart(productDetails);
+        };
+
+        setIsAddedInCart(preVal => !preVal);
+    };
+
+    // Handle add/remove from wishlist.
+    const handleWishlistAction = () => {
+        if (isAddedInWishlist) {
+            removeItemFromWishlist(productname);
+        } else {
+            addItemToWishlist(productDetails);
+        };
+
+        setIsAddedInWishlist(preVal => !preVal);
+    };
 
     return (
 
@@ -67,14 +103,20 @@ export default function ProductDetail() {
 
                                 <button
                                     className="flex-grow bg-slate-900 text-white hover:bg-white hover:text-slate-900 duration-300 py-3 px-1 border-2 border-slate-900 uppercase"
+                                    onClick={handleCartAction}
                                 >
-                                    Add To Cart
+                                    {
+                                        isAddedInCart ? 'Remove From Cart' : 'Add To Cart'
+                                    }
                                 </button>
 
                                 <button
                                     className="flex-grow bg-white text-slate-900 hover:bg-slate-900 hover:text-white duration-300 py-3 px-1 border-2 border-slate-900 uppercase"
+                                    onClick={handleWishlistAction}
                                 >
-                                    Add to Wishlist
+                                    {
+                                        isAddedInWishlist ? 'Remove From Wishlist' : 'Add To Wishlist'
+                                    }
                                 </button>
                             </div>
 
